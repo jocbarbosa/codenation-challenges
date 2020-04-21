@@ -22,4 +22,7 @@ const isFibonacci = (number) => {
     return isInArray
 }
 
-console.log(isFibonacci(8))
+module.exports = {
+    fibonacci: fibonacci,
+    isFibonacci: isFibonacci
+}
